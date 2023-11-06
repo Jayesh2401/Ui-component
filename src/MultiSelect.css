@@ -1,0 +1,113 @@
+.MultiSelect_container {
+  position: relative;
+  width: 100%;
+}
+
+.MultiSelect_wrapper {
+  border-width: 1px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.MultiSelect_box_active {
+  border: 1px solid #ca5cf6;
+}
+
+.MultiSelect_box_inactive {
+  border: 1px solid rgb(148, 137, 137);
+}
+
+.MultiSelect_items_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.MultiSelect_padding {
+  padding: 0.5rem;
+}
+
+.MultiSelect_list {
+  background-color: #ede9fe;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.MultiSelect_list_child {
+  margin-left: 0.25rem;
+  cursor: pointer;
+}
+
+.MultiSelect_input {
+  border-radius: 0.25rem;
+  flex: 1;
+  padding: 0.5rem;
+  border-width: 0;
+  outline-style: none;
+  height: 100%;
+}
+
+.MultiSelect_input::placeholder {
+  color: gray;
+}
+
+.w_auto {
+  width: auto;
+}
+
+.w_full {
+  width: 100%;
+}
+
+.MultiSelect_input:focus,
+.MultiSelect_input:focus-visible {
+  border-width: 0;
+  outline: none;
+}
+
+.MultiSelect_options {
+  left: 0;
+  max-height: 150px;
+  top: 40px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  border-width: 1px;
+}
+
+.MultiSelect_onselected {
+  top: 55px;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.MultiSelect_optionlist {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.MultiSelect_optionlist:hover {
+  background-color: rgb(196, 180, 180);
+}
+
+.MultiSelect_optionlist_focus {
+  background-color: rgb(95, 89, 89);
+  color: white;
+}
+
+.MultiSelect_notfound {
+  padding: 0.5rem;
+  color: rgb(87, 81, 81);
+  cursor: default;
+}

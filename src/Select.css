@@ -1,0 +1,75 @@
+.select_container {
+  position: relative;
+}
+
+.select_box {
+  border-width: 1px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.select_box_focus {
+  border: 1px solid rgb(109, 109, 199);
+}
+
+.select_box_nofocus {
+  border: 1px solid rgb(84, 84, 100);
+}
+
+.select_input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border-width: 0;
+  outline-style: none;
+  width: 100%;
+  height: 100%;
+}
+
+.select_input::placeholder {
+  color: rgb(92, 90, 90);
+}
+
+.select_input:focus,
+.select_input:focus-visible {
+  border-width: 0;
+  outline: none;
+}
+
+.select_items {
+  left: 0;
+  top: 40px;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  border-width: 1px;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.select_list {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.select_list:hover {
+  background-color: rgba(128, 128, 128, 0.267);
+}
+
+.select_notfound {
+  padding: 0.5rem;
+  color: rgb(87, 81, 81);
+}
+
+.select_list_focus {
+  background-color: rgb(95, 89, 89);
+  color: white;
+}
